@@ -158,16 +158,50 @@ Al abrir `index.html` o `login.html` en el navegador y presionar F12 para abrir 
 
 ## Capturas de Pantalla
 
-![Formulario vacío](img/FormVacio.png)
-![Intento de envío de el formulario vacío](img/Intento%20de%20envio%20de%20el%20FormVacio.png)
-![Correo incorrecto](img/Correo%20incorrecto.png)
-![Múltiples campos incorrectos](img/Multiples%20campos%20incorrectos.png)
-![Campos correctos](img/Campos%20correctos.png)
-![Consola con mensaje de error](img/Consola%20con%20mensaje%20de%20error.png)
-![Consola con mensaje exitoso](img/Consola%20con%20mensaje%20exitoso.png)
-![Datos incorrectos en login](img/Datos%20incorrectos%20en%20login.png)
-![Datos correctos en login](img/Datos%20correctos%20login.png)
+**Formulario vacío**
+Vista inicial del formulario antes de llenar cualquier campo.
 
+![Formulario vacío](img/FormVacio.png)
+
+**Intento de envío con el formulario vacío**
+El navegador bloquea el envío por los campos marcados como `required`.
+
+![Intento de envío del formulario vacío](img/Intento%20de%20envio%20de%20el%20FormVacio.png)
+
+**Correo incorrecto**
+`validarCorreo()` detecta el formato inválido y muestra el mensaje de error en rojo.
+
+![Correo incorrecto](img/Correo%20incorrecto.png)
+
+**Múltiples campos incorrectos**
+Varios campos fallan al mismo tiempo (nombre, teléfono, CURP, password), cada uno con su propio mensaje.
+
+![Múltiples campos incorrectos](img/Multiples%20campos%20incorrectos.png)
+
+**Campos correctos**
+Todos los campos llenados correctamente, listos para enviarse.
+
+![Campos correctos](img/Campos%20correctos.png)
+
+**Consola con mensaje de error**
+Al fallar la validación, la consola muestra el mensaje "Formulario con errores, no se registró el usuario."
+
+![Consola con mensaje de error](img/Consola%20con%20mensaje%20de%20error.png)
+
+**Consola con mensaje exitoso**
+Registro exitoso: la consola muestra los datos del usuario junto con la edad calculada.
+
+![Consola con mensaje exitoso](img/Consola%20con%20mensaje%20exitoso.png)
+
+**Datos incorrectos en login**
+`validarCorreo()` y `validarPassword()` detectan los errores antes de permitir el inicio de sesión.
+
+![Datos incorrectos en login](img/Datos%20incorrectos%20en%20login.png)
+
+**Datos correctos en login**
+Login exitoso: aparece el `alert()` de bienvenida y el mensaje correspondiente en consola.
+
+![Datos correctos en login](img/Datos%20correctos%20login.png)
 
 ---
 
