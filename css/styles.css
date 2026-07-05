@@ -1,0 +1,153 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #0d0055;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.contenedor {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 100%;
+    max-width: 350px;
+}
+
+h1 {
+    font-size: 20px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 25px;
+}
+
+p {
+    color: #727272;
+    text-align: justify;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+label {
+    margin-top: 20px;
+    font-weight: bold;
+    display: block;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input:focus {
+    outline: none;
+    border-color: #0d0055;
+    box-shadow: 0 0 0 2px rgba(13, 0, 85, 0.15);
+}
+
+input.invalido {
+    border-color: #e73529;
+    background-color: #fff2f0;
+}
+
+.error {
+    color: #e73529;
+    font-size: 12px;
+    margin-top: 4px;
+    margin-bottom: 0;
+    min-height: 14px;
+}
+
+button {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    padding: 10px;
+    background-color: #e73529;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+button:hover {
+    background-color: #cd0000;
+}
+
+.link-secundario {
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+    font-size: 13px;
+    color: #0d0055;
+}
+
+/* Modal */
+.overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+}
+
+.overlay.activo {
+    display: flex;
+}
+
+.modal {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    width: 280px;
+    text-align: center;
+    box-shadow: 0 0 15px rgba(0,0,0,0.3);
+}
+
+.modal h2 {
+    color: #0d0055;
+    margin-top: 0;
+}
+
+.modal .edad-numero {
+    font-size: 48px;
+    font-weight: bold;
+    color: #e73529;
+    margin: 10px 0;
+}
+
+.modal .estado {
+    font-size: 14px;
+    color: #727272;
+    margin-bottom: 20px;
+}
+
+.modal button {
+    background-color: #0d0055;
+}
+
+.modal button:hover {
+    background-color: #1a0090;
+}
+
+a {
+    color: #727272;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 10px;
+}
