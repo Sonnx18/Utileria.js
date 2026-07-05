@@ -217,4 +217,4 @@ Puedes acceder a los formularios funcionando en vivo con las validaciones de est
 
 Ver Repositorio: https://github.com/Sonnx18/Utileria.js.git
 
-Ver Página en Vivo - GitHub Pages: _(pega aquí el link de GitHub Pages)_
+Ver Página en Vivo - GitHub Pages: https://sonnx18.github.io/Utileria.js/
