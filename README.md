@@ -158,9 +158,8 @@ Al abrir `index.html` o `login.html` en el navegador y presionar F12 para abrir 
 
 ## Capturas de Pantalla
 
-```
 ![Formulario vacío](img/FormVacio.png)
-![Intento de envio de el formulario vacío](img/Intento%20de%20envio%20de%20el%20FormVacio.png)
+![Intento de envío de el formulario vacío](img/Intento%20de%20envio%20de%20el%20FormVacio.png)
 ![Correo incorrecto](img/Correo%20incorrecto.png)
 ![Múltiples campos incorrectos](img/Multiples%20campos%20incorrectos.png)
 ![Campos correctos](img/Campos%20correctos.png)
@@ -169,7 +168,6 @@ Al abrir `index.html` o `login.html` en el navegador y presionar F12 para abrir 
 ![Datos incorrectos en login](img/Datos%20incorrectos%20en%20login.png)
 ![Datos correctos en login](img/Datos%20correctos%20login.png)
 
-```
 
 ---
 
