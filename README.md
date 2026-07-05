@@ -160,14 +160,14 @@ Al abrir `index.html` o `login.html` en el navegador y presionar F12 para abrir 
 
 ```
 ![Formulario vacío](img/FormVacio.png)
-![Intento de envio de el formulario vacío](img/Intento de envio de el FormVacio.png)
-![Correo incorrecto](img/Correo incorrecto.png)
-![Múltiples campos incorrectos](img/Multiples campos incorrectos.png)
-![Campos correctos](img/Campos correctos.png)
-![Consola con mensaje de error](img/Consola con mensaje de error.png)
-![Consola con mensaje exitoso](img/Consola con mensaje exitoso.png)
-![Datos incorrectos en login](img/Datos incorrectos en login.png)
-![Datos correctos en login](img/Datos correctos en login.png)
+![Intento de envio de el formulario vacío](img/Intento%20de%20envio%20de%20el%20FormVacio.png)
+![Correo incorrecto](img/Correo%20incorrecto.png)
+![Múltiples campos incorrectos](img/Multiples%20campos%20incorrectos.png)
+![Campos correctos](img/Campos%20correctos.png)
+![Consola con mensaje de error](img/Consola%20con%20mensaje%20de%20error.png)
+![Consola con mensaje exitoso](img/Consola%20con%20mensaje%20exitoso.png)
+![Datos incorrectos en login](img/Datos%20incorrectos%20en%20login.png)
+![Datos correctos en login](img/Datos%20correctos%20login.png)
 
 ```
 
@@ -175,9 +175,7 @@ Al abrir `index.html` o `login.html` en el navegador y presionar F12 para abrir 
 
 ## Video Demostrativo
 
-> Pendiente: grabar un video de máximo 1 minuto explicando el problema que resuelve la librería, cómo se usa, y el resultado en vivo (formulario, modal con la edad, y login validando).
-
-Ver Video: _(pega aquí el link una vez grabado)_
+Ver Video: https://youtu.be/fX-0l3-RHp4
 
 ---
 
@@ -185,6 +183,6 @@ Ver Video: _(pega aquí el link una vez grabado)_
 
 Puedes acceder a los formularios funcionando en vivo con las validaciones de esta librería en el siguiente enlace:
 
-Ver Repositorio: _(pega aquí el link del repositorio de GitHub)_
+Ver Repositorio: https://github.com/Sonnx18/Utileria.js.git
 
 Ver Página en Vivo - GitHub Pages: _(pega aquí el link de GitHub Pages)_
